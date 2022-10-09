@@ -52,6 +52,7 @@ input {
     border-style: solid;
     border-radius: 8px;
     border-color: lightblue;
+    color: white;
 }
 
 button {
@@ -71,8 +72,19 @@ button:hover {
 small {
     display: none;
 }
-.error .smal {
+.error{
     color: red;
     font-size: 15px;
     display: block;
+}
+.sucess {
+    color: white;
+    display: block;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 425px){
+    .head-container{
+        margin-left: 20px;
+    }
 }
