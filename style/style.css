@@ -32,14 +32,14 @@ body {
     background-color: #15202b;
     color: lightblue;
     width: 400px;
-    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     border-radius: 12px;
 }
-p {
+.Paid-amount, .biled-amount {
+    margin-top: 15px;
     font-size: 25px;
     margin-bottom: 5px;
 }
@@ -64,6 +64,7 @@ button {
     border-style: none;
     color: white;
     border-radius: 12px;
+    margin-top: 20px;
 }
 button:hover {
     background-color: #0b5180;
@@ -81,6 +82,30 @@ small {
     color: white;
     display: block;
     font-size: 20px;
+}
+.denomination-head {
+    margin-top: 20px;
+    display: flex;
+}
+new{
+    
+    display: none;
+}
+.value{
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    width: 180px;
+    text-align: center;
+}
+.count{
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    width: 180px;
+    text-align: center;
 }
 
 @media screen and (max-width: 425px){
