@@ -17,15 +17,6 @@ function balance(){
 const OldDenominator = [2000,500,100,50,10,1]
 const newDenominatoe = []
 
-function calcdeno(){
-    let i = 1
-    while(i < OldDenominator.length ){
-        newDenominatoe.push(Math.floor(change/OldDenominator[i]))
-        change = change % newDenominatoe[i] 
-    }
-
-}
-console.log(calcdeno())
 
 //event Listener for calculation
 CalculateEl.addEventListener('click',()=>{
