@@ -8,7 +8,11 @@
     --font-family :font-family: 'Roboto', sans-serif;
     --colour-dark : rgb(23, 17, 33);
 }
-li{
+.listiteam, .listiteam1{
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    width: 180px;
     list-style: none;
 }
 
@@ -92,7 +96,8 @@ new{
     display: none;
 }
 .value{
-    display: block;
+    display: flex;
+    flex-direction: column;
     border-width: 1px;
     border-style: solid;
     border-color: white;
@@ -100,7 +105,8 @@ new{
     text-align: center;
 }
 .count{
-    display: block;
+    display: flex;
+    flex-direction: column;
     border-width: 1px;
     border-style: solid;
     border-color: white;
